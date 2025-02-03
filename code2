@@ -1,1 +1,12 @@
-2
+course1 = float(input("Enter percentage marks for course 1:")) 
+course2 = float(input("Enter percentage marks for course 2:")) 
+course3 = float(input("Enter percentage marks for course 3 :"))
+total_percentage = course1 + course2 + course3 
+print("total percentage mark of the courses", total_percentage)
+ average_percentage= total_percentage / 3 
+print("average percentage mark of the courses", average_percentage)
+gpa = (average_percentage / 100) * 4
+ print("gpa of the course", gpa)
+
+
+
